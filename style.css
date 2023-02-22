@@ -42,3 +42,24 @@ a:hover {
     display: block;
     padding: .5rem;
 }
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #btn-mobile {
+        display: block;
+    }
+
+    #menu {
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+    }
+
+    #nav.active #menu {
+        display: flex;
+    }
+}
