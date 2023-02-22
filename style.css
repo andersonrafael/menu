@@ -1,0 +1,44 @@
+body,
+ul {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    background: rgb(168, 170, 170);
+    border-radius: 10%;
+
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(13, 13, 13);
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .9rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
